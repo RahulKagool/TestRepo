@@ -4,5 +4,6 @@ CREATE TABLE rahul_test.employee (
   city VARCHAR2(100 BYTE),
   subject VARCHAR2(100 BYTE),
   dept VARCHAR2(100 BYTE),
-  names VARCHAR2(255 BYTE)
+  names VARCHAR2(255 BYTE),
+  pen VARCHAR2(255 BYTE)
 );
