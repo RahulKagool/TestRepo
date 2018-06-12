@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE rahul_test.remove_emp (employee_id NUMBER) AS
+CREATE OR REPLACE PROCEDURE rahul_test.remove_emp (employee_id NUMBER,emp_name varchar) AS
    tot_emps NUMBER;
    BEGIN
       DELETE FROM employee
